@@ -75,9 +75,8 @@ margin-bottom: .5rem;
     font-size: 1.1rem;
     border: none;
 }
-#survey-form .form-group : :nth-child(5)label{
+#survey-form .form-group:nth-child(5) label {
 display: inline;
-
 }
 .form-group textarea{
 height: 8.5rem; 
@@ -99,5 +98,34 @@ padding: 1rem;
 }
 #creator a {
     color: #ccc;
+}
 
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    #container {
+        margin: 2rem auto;
+        padding: 0.5rem;
+    }
+
+    #survey-form {
+        padding: 2rem 1.5rem;
+    }
+
+    #title {
+        font-size: 1.8rem;
+    }
+
+    #description {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .form-group {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .form-group textarea {
+        font-size: 1.1rem;
+    }
 }
